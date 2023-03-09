@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmao
+  labels:
+    app: myapplication
+data:
+  db_url : mongo-service
